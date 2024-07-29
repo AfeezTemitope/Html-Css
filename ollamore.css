@@ -1,0 +1,45 @@
+.join{
+    text-align: center;
+    color: red;
+
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.header{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    justify-content: center;
+    background-color: #2995E2;
+    border-radius: 10px;
+    width: 95vw;
+    height: 20vh
+}
+.image img{
+    width: 20vw;
+    height: 60vh;
+}
+
+.button{
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+.button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(26, 255, 0, 0.2);
+
+}
+
+.fb{
+    border-radius: 5px;
+    border-color: blue;
+    color: white;
+    background: blue;
+
+}

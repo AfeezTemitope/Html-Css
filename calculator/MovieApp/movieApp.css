@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.navWrapper{
+    width: 100vw;
+    background-color: rgb(190, 246, 255);
+}
+.navBar{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    height: 10vh;
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navBar ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.navBar ul li {
+    list-style: none;
+}
+
+.navBar ul {
+    width: 30vw;
+    justify-content: space-between;
+    display: flex;
+}
+
+.navBar button{
+    width: 70px;
+    height: 30px;
+}
+
+.searchInput{
+    display: grid;
+    justify-content: center;
+    padding: 15px 0;
+}
+.searchInput input{
+    width: 40vw;
+    height: 8vh;
+}
+
+.images img{
+    width : 300px;
+    height: 300px;
+}
+.movieBox{
+    width: 300px;
+}
+.movieContainer{
+    display: flex;
+    margin: auto;
+    width: 80vw;
+    justify-content: space-evenly;
+}

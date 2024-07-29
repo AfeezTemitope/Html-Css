@@ -1,0 +1,48 @@
+.button-row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    height: 20vh;
+    width: 25vw;
+}
+.operator, .operand,.numbers{
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Geometr212 BkCn BT";
+    color: #000000;
+    cursor: pointer;
+    border-color: #00ff4c;
+    background-color: white;
+}
+.operand{
+    background-color: red;
+    color: white;
+}
+.operator{
+    background-color: yellow;
+    color: black;
+}
+.operator:hover,
+.operand:hover,
+.numbers:hover {
+    background-color: white;
+    transform-style: preserve-3d;
+    color: rgba(175, 175, 174, 0.62);
+    transform: rotate(5deg);
+}
+
+
+.calculator-display{
+    margin-bottom: 15px;
+    border-radius: 3px;
+    height: 15vh;
+    border-color:  #3edc3e;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #8a8a8a;
+}

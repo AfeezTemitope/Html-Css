@@ -1,0 +1,41 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://app.tasafrica.com/images/auth-bg.svg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.input-field:focus {
+    outline: none;
+    border-color: #0074D9;
+}
+.btn {
+    background-color: #021b83;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #012044;
+    transform: scale(1.05);
+}
